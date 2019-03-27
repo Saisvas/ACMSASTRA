@@ -1,0 +1,78 @@
+.heading {
+  font-family: "Courier New", Courier, monospace;
+  font-stretch: ultra-condensed;
+}
+
+body {
+  font: 1.2em normal Arial, sans-serif;
+  color: #34495e;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  font-size: 2.5em;
+  margin: 20px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.blue {
+  border: 2px solid #1abc9c;
+}
+
+.blue thead {
+  background: #1abc9c;
+}
+
+.purple {
+  border: 2px solid #9b59b6;
+}
+
+.purple thead {
+  background: #9b59b6;
+}
+
+thead {
+  color: white;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 5px 0;
+}
+
+tbody tr:nth-child(even) {
+  background: #ecf0f1;
+}
+
+tbody tr:hover {
+  background: #bdc3c7;
+  color: #ffffff;
+}
+
+.fixed {
+  top: 0;
+  position: fixed;
+  width: auto;
+  display: none;
+  border: none;
+}
+
+.scrollMore {
+  margin-top: 600px;
+}
+
+.up {
+  cursor: pointer;
+}

@@ -47,22 +47,27 @@ class Header extends Component {
               <Nav className="ml-auto" navbar>
                 <NavItem>
                   <NavLink className="nav-link" to="/events/">
-                    Events
+                    <h6 style={{ fontFamily: "Trebuchet MS" }}>Events</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink className="nav-link" to="/team/">
-                    Team
+                    <h6 style={{ fontFamily: "Trebuchet MS" }}>Team</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink className="nav-link" to="/contact/">
-                    Contact us
+                    <h6 style={{ fontFamily: "Trebuchet MS" }}>Contact us</h6>
                   </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink className="nav-link" to="/about/">
-                    About us
+                    <h6 style={{ fontFamily: "Trebuchet MS" }}>About us</h6>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/leader">
+                    <h6 style={{ fontFamily: "Trebuchet MS" }}>Leaderboard</h6>
                   </NavLink>
                 </NavItem>
               </Nav>
